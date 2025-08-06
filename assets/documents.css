@@ -1,0 +1,144 @@
+
+.main_title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+}
+
+.contianer2{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 19px;
+    font-size: 19px;
+}
+
+.contianer3{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .service{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: grid;
+    grid-template-columns: 5% 80% 15%;
+    border-bottom: 0.5px solid rgb(201, 201, 201);
+    height: 90px;
+}
+
+.service_icon2{
+    width: 29px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+}
+
+.service_icon{
+    width: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+}
+
+.service_name{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: max-content;
+    margin-left: 20px;
+    font-weight: 500;
+    
+}
+.action{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: var(--text);
+    height: max-content;
+    margin-top: 0;
+}
+
+.action_add{
+    right: 75px;
+}
+
+.title{
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.card{
+    width: 100%;
+    height: 85px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 15% 30% 55%;
+}
+
+.human, .wheel{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -3px;
+    margin-right: auto;
+    height: 30px;
+}
+
+.arrow{
+    margin-left: auto;
+    width: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px !important;
+}
+
+.other{
+    border-radius: 19px;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: max-content max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.other_title{
+    margin-top: 30px;
+    font-size: 17px;
+    height: max-content;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.other_subtitle{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 15px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
