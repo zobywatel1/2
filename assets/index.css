@@ -32,11 +32,10 @@
     margin-right: auto;
 }
 
-
-html{
-    scroll-behavior: smooth;
-    background: black;
-    -webkit-background-clip: border-box;
+body {
+  margin: 0;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  background-color: #111218;
 }
 
 .top_holder{
